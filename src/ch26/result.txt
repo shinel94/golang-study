@@ -1,0 +1,546 @@
+..\ch04\ex4_1\ex4.1.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00008 	 fmt.Println(a, msg)
+		 00011 	 fmt.Println(a, msg)
+-----------------------------
+
+..\ch04\ex4_2\ex4.2.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00010 	 fmt.Println(fmt.Sprintf("MinimumWage : %d / WorkingHour : %d / Income : %d", minimumWage, workingHour, income))
+		 00011 	 fmt.Println(&income)
+-----------------------------
+
+..\ch04\ex4_4\ex4_4.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00009 	 fmt.Println(a)
+		 00026 	 fmt.Println(g, h, f)
+-----------------------------
+
+..\ch04\ex4_3\ex4_3.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00018 	 fmt.Println(a, b, c, d, t)
+-----------------------------
+
+..\ch05\ex5_1\ex5_1.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00011 	 fmt.Print("a:", a, "b:", b)
+		 00012 	 fmt.Println("a:", a, "b:", b, "f:", f)
+		 00013 	 fmt.Printf("a: %d b: %d f:%f \n", a, b, f)
+-----------------------------
+
+..\ch05\ex5_2\ex5_2.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00010 	 n, err := fmt.Scan(a, b)
+		 00012 	 fmt.Println(n, err)
+		 00014 	 fmt.Println(n, a, b, &a, &b, *a, *b) // int값의 포인터 가 a,b로 전달됨, &a, &b역시 포인터로 그대로 전달됨(call by reference), *a, *b pointer의 주소값에 기록된 값을 반환함
+-----------------------------
+
+..\ch07\ex7_1\ex7_1.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00011 	 fmt.Println(c)
+-----------------------------
+
+..\ch05\ex5_3\ex5_3.go
+-----------------------------
+		 00005 	 "fmt"
+		 00015 	 n, err := fmt.Scanln(&a, &b)
+		 00018 	 fmt.Println(err)
+		 00021 	 fmt.Println(n, a, b)
+		 00024 	 n, err = fmt.Scanln(&a, &b)
+		 00027 	 fmt.Println(err)
+		 00030 	 fmt.Println(n, a, b)
+-----------------------------
+
+..\ch06\ex6_1\ex6_1.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00012 	 fmt.Println("x + y =", x+y)
+		 00013 	 fmt.Println("x - y =", x-y)
+		 00014 	 fmt.Println("x * y =", x*y)
+		 00015 	 fmt.Println("x / y =", x/y)
+		 00016 	 fmt.Println("x % y =", x%y)
+		 00017 	 fmt.Println("x << y =", x<<y)
+		 00018 	 fmt.Println("x >> y =", x>>y)
+		 00020 	 fmt.Println("s * t = ", s*t)
+		 00021 	 fmt.Println("s / t = ", s/t)
+		 00022 	 fmt.Printf("%08b\n", 10)
+		 00023 	 fmt.Printf("%08b\n", 10<<1)
+		 00024 	 fmt.Printf("%08b\n", 10>>1)
+		 00025 	 fmt.Printf("%08b\n", 10&^2)
+		 00026 	 fmt.Printf("%08b\n", 10&^4)
+		 00027 	 fmt.Printf("%08b\n", 10&^8)
+		 00028 	 fmt.Printf("%08b\n", 100&^8)
+		 00029 	 fmt.Printf("%08b\n", 100&^16)
+		 00030 	 fmt.Printf("%08b\n", 100&^32)
+		 00031 	 fmt.Printf("%08b\n", 100&^64)
+-----------------------------
+
+..\ch07\ex7_2\ex7_2.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00009 	 fmt.Println(name, " 님 평균 점수는 ", avg, "입니다.")
+		 00027 	 fmt.Println(n)
+		 00029 	 fmt.Println("After", n)
+		 00037 	 fmt.Println(Divide(10, 3))
+		 00038 	 fmt.Println(Divide(2, 3))
+		 00039 	 fmt.Println(Divide(10, 0))
+-----------------------------
+
+..\ch08\ex8_4\ex8_4.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00022 	 fmt.Println(Red, Blue, Green)
+		 00023 	 fmt.Println(C1, C2, C3)
+		 00024 	 fmt.Println(B1, B2, B3)
+-----------------------------
+
+..\ch08\ex8_2\ex8_2.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00010 	 fmt.Printf("원주율: %f\n", PI1)
+		 00011 	 fmt.Printf("원주율: %f\n", PI2)
+-----------------------------
+
+..\ch08\ex8_5\ex8_5.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00011 	 fmt.Println(a, f, PI) // -> fmt.Println(a, f, 3.14)
+-----------------------------
+
+..\ch09\ex9_1\ex9_1.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00009 	 fmt.Println("길을 건넌다")
+		 00011 	 fmt.Println("대기한다")
+		 00017 	 fmt.Println("에어컨을 켠다")
+		 00019 	 fmt.Println("히터를 켠다")
+		 00021 	 fmt.Println("대기한다.")
+-----------------------------
+
+..\ch09\ex9_3\ex9_3.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00009 	 fmt.Println("U R Young")
+		 00011 	 fmt.Println("U R not 20s")
+		 00013 	 fmt.Println("Best age of your life")
+-----------------------------
+
+..\ch09\ex9_6\ex9_6.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00011 	 fmt.Println("U R Young", age)
+		 00013 	 fmt.Println("Nice age", age)
+		 00015 	 fmt.Println("You are beautiful", age)
+		 00017 	 fmt.Println("Error")
+		 00019 	 // fmt.Println("ur age is ",age)
+-----------------------------
+
+..\ch10\ex10_1\ex10_1.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00008 	 fmt.Scan(&a)
+		 00012 	 fmt.Println("a == 1")
+		 00014 	 fmt.Println("a == 2")
+		 00016 	 fmt.Println("a == 3")
+		 00018 	 fmt.Println("a == 4")
+		 00020 	 fmt.Println("a > 4")
+-----------------------------
+
+..\ch10\ex10_10\ex10_10.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00010 	 fmt.Println("a == 1")
+		 00013 	 fmt.Println("a == 2")
+		 00015 	 fmt.Println("a == 3")
+		 00018 	 fmt.Println("a == 4")
+		 00021 	 fmt.Println("a == 5")
+		 00023 	 fmt.Println("a > 5")
+-----------------------------
+
+..\ch10\ex10_5\ex10_5.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00008 	 fmt.Scan(&temp)
+		 00012 	 fmt.Println("바깥 활동하기 좋은 날씨가 아닙니다.")
+		 00014 	 fmt.Println("약간 추울 수 있으니 가벼운 겉옷을 준비하세요.")
+		 00016 	 fmt.Println("야외 활동하기 좋은 날씨입니다.")
+		 00018 	 fmt.Println("따뜻합니다.")
+		 00022 	 fmt.Println("바깥 활동하기 좋은 날씨가 아닙니다.")
+		 00024 	 fmt.Println("약간 추울 수 있으니 가벼운 겉옷을 준비하세요.")
+		 00026 	 fmt.Println("야외 활동하기 좋은 날씨입니다.")
+		 00028 	 fmt.Println("따뜻합니다.")
+-----------------------------
+
+..\ch10\ex10_6\ex10_6.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00012 	 fmt.Println("Teenage")
+		 00014 	 fmt.Println("Pair 3")
+		 00016 	 fmt.Println("My age is ", age)
+		 00018 	 // fmt.Print("age is", age)
+-----------------------------
+
+..\ch10\ex10_7\ex10_7.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00034 	 fmt.Println("My favorite color is", colorToString(getMyFavoriteColor()))
+-----------------------------
+
+..\ch12\ex12_1\ex12_1.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00009 	 fmt.Println(t[i])
+		 00012 	 fmt.Println(v)
+-----------------------------
+
+..\ch11\ex11_3\ex11_3.go
+-----------------------------
+		 00005 	 "fmt"
+		 00014 	 fmt.Println("입력하세요.")
+		 00015 	 _, err := fmt.Scanln(&number)
+		 00017 	 fmt.Println("숫자를 입력하세요.")
+		 00021 	 fmt.Printf("입력하신 숫자는 %d 입니다.\n", number)
+		 00027 	 fmt.Println("for문이 종료됐습니다.")
+		 00030 	 fmt.Print("*")
+		 00032 	 fmt.Print("\n")
+		 00039 	 fmt.Printf("%d * %d = %d\n", dan, b, dan*b)
+-----------------------------
+
+..\ch13\ex13_1\ex13_1.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00013 	 fmt.Println("주소:", house.Address)
+		 00014 	 fmt.Printf("크기: %d평\n", house.Size)
+		 00015 	 fmt.Printf("가격: %.2f억 원\n", house.Price)
+		 00016 	 fmt.Println("타입:", house.Type)
+-----------------------------
+
+..\ch13\ex13_2\ex13_2.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00016 	 fmt.Printf("유저: %s ID: %s 나이: %d\n", user.Name, user.ID, user.Age)
+		 00026 	 fmt.Printf("VIP 유저: %s ID: %s 나이: %d VIP 레벨: %d VIP 가격: %d만 원\n", user.UserInfo.Name, user.UserInfo.ID, user.UserInfo.Age, user.VIPLevel, user.Price)
+		 00036 	 fmt.Printf("%b", &x)
+-----------------------------
+
+..\ch13\ex13_3\ex13_3.go
+-----------------------------
+		 00004 	 "fmt"
+		 00015 	 fmt.Printf("나이: %d 번호: %d 점수: %.2f\n", s.Age, s.No, s.Score)
+		 00025 	 fmt.Printf("%X", studnet)
+		 00026 	 fmt.Printf("%b", studnet)
+		 00027 	 fmt.Printf("%X", studnet2)
+		 00028 	 fmt.Printf("%b", studnet2)
+		 00029 	 fmt.Println(unsafe.Pointer(studnet))
+-----------------------------
+
+..\ch14\ex14_1\ex14_1.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00012 	 fmt.Printf("p의 값: %p\n", p)
+		 00013 	 fmt.Printf("p가 가리키는 메모리의 값: %d\n", *p)
+		 00016 	 fmt.Printf("a의 값: %d\n", a)
+		 00022 	 fmt.Printf("p1 == p2 : %v\n", p1 == p2)
+		 00023 	 fmt.Printf("p2 == p3 : %v\n", p2 == p3)
+-----------------------------
+
+..\ch14\ex14_4\ex14_4.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00019 	 fmt.Printf("value = %d\n", data.value)
+		 00020 	 fmt.Printf("data[100] = %d\n", data.data[100])
+-----------------------------
+
+..\ch17\prac\prac.go
+-----------------------------
+		 00005 	 "fmt"
+		 00015 	 fmt.Print("숫자를 입력하세요:")
+		 00016 	 _, err := fmt.Scanln(&a)
+		 00018 	 fmt.Println("숫자가 아닙니다.")
+		 00035 	 fmt.Printf("당첨!! 잔액 : %d\n 결과 %d / %d \n", initMoney, src, tar)
+		 00038 	 fmt.Printf("실패!! 잔액 : %d\n 결과 %d / %d \n", initMoney, src, tar)
+-----------------------------
+
+..\ch18\ex18_1\ex18_1.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00009 	 fmt.Println("slice is empty", slice)
+		 00013 	 // fmt.Println(slice)
+		 00018 	 fmt.Printf("%T %T", s1, s2)
+		 00021 	 fmt.Println(s3)
+		 00024 	 fmt.Println(s3)
+		 00026 	 fmt.Println(s3)
+-----------------------------
+
+..\ch18\ex18_10\ex18_10.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00013 	 fmt.Println(slice)
+		 00016 	 fmt.Println(slice)
+		 00023 	 fmt.Println(slice)
+		 00025 	 fmt.Println(slice)
+		 00030 	 fmt.Println(slice)
+-----------------------------
+
+..\ch18\ex18_12\ex18_12.go
+-----------------------------
+		 00004 	 "fmt"
+		 00024 	 fmt.Println(s)
+-----------------------------
+
+..\ch18\ex18_5\ex18_5.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00009 	 fmt.Println("slice1:", slice1, len(slice1), cap(slice1))
+		 00010 	 fmt.Println("slice2:", slice2, len(slice2), cap(slice2))
+		 00014 	 fmt.Println("After change second element")
+		 00015 	 fmt.Println("slice1:", slice1, len(slice1), cap(slice1))
+		 00016 	 fmt.Println("slice2:", slice2, len(slice2), cap(slice2))
+		 00020 	 fmt.Println("After append 500")
+		 00021 	 fmt.Println("slice1:", slice1, len(slice1), cap(slice1))
+		 00022 	 fmt.Println("slice2:", slice2, len(slice2), cap(slice2))
+		 00028 	 fmt.Println("slice1:", slice1, len(slice1), cap(slice1))
+		 00029 	 fmt.Println("slice2:", slice2, len(slice2), cap(slice2))
+		 00032 	 fmt.Println("slice1:", slice1, len(slice1), cap(slice1))
+		 00033 	 fmt.Println("slice2:", slice2, len(slice2), cap(slice2))
+-----------------------------
+
+..\ch18\ex18_8\ex18_8.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00016 	 fmt.Println(slice1)
+		 00017 	 fmt.Println(slice2)
+		 00024 	 fmt.Println(cnt1, slice2)
+		 00025 	 fmt.Println(cnt2, slice3)
+		 00029 	 fmt.Println(slice1, slice2)
+		 00030 	 fmt.Printf("%p %p", slice1, slice2)
+-----------------------------
+
+..\ch18\ex18_7\ex18_7.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00009 	 fmt.Println("array:", array)
+		 00010 	 fmt.Println("slice:", slice, len(slice), cap(slice))
+		 00014 	 fmt.Println("After change second element")
+		 00015 	 fmt.Println("array:", array)
+		 00016 	 fmt.Println("slice:", slice, len(slice), cap(slice))
+		 00020 	 fmt.Println("After append 500")
+		 00021 	 fmt.Println("array:", array)
+		 00022 	 fmt.Println("slice:", slice, len(slice), cap(slice))
+-----------------------------
+
+..\ch19\ex19_3\ex19_3.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00027 	 fmt.Println(mainA.balance)
+		 00030 	 fmt.Println(mainA.balance)
+		 00033 	 fmt.Println(mainB.balance)
+		 00036 	 fmt.Println(mainB)
+-----------------------------
+
+..\ch20\ex20_2\ex20_2.go
+-----------------------------
+-----------------------------
+
+..\ch20\ex20_10\ex20_10.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00033 	 fmt.Println(f, c)
+-----------------------------
+
+..\ch20\ex20_7\ex20_7.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00014 	 return fmt.Sprintf("Studnet Age:%d\n", s.Age)
+		 00027 	 fmt.Println("recovered:", v)
+		 00031 	 fmt.Printf("Age: %d\n", s.Age)
+		 00036 	 fmt.Println(s.String())
+-----------------------------
+
+..\ch21\ex21_1\ex21_1.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00007 	 fmt.Printf("nums 타입: %T\n", nums)
+		 00016 	 fmt.Println(sum(1, 2, 3, 4, 5, 6))
+		 00017 	 fmt.Println(sum(10, 20))
+		 00018 	 fmt.Println(sum())
+-----------------------------
+
+..\ch21\ex21_2\ex21_2.go
+-----------------------------
+		 00004 	 "fmt"
+		 00012 	 fmt.Println("Failed to create a file")
+		 00017 	 fmt.Println("반드시 호출됩니다.")
+		 00019 	 fmt.Println("파일을 닫았습니다")
+		 00022 	 fmt.Println("파일에 Hello World를 씁니다.")
+		 00023 	 fmt.Fprintln(f, "Hello World")
+-----------------------------
+
+..\ch21\ex21_3\ex21_3.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00041 	 fmt.Println(result)
+		 00044 	 fmt.Println(result)
+-----------------------------
+
+..\ch22\ex22_1\ex22_1.go
+-----------------------------
+		 00005 	 "fmt"
+		 00016 	 fmt.Print(e.Value, " ")
+		 00018 	 fmt.Println()
+		 00020 	 fmt.Print(e.Value, " ")
+-----------------------------
+
+..\ch22\ex22_2\ex22_2.go
+-----------------------------
+		 00005 	 "fmt"
+		 00057 	 fmt.Printf("%v -> ", v)
+		 00068 	 fmt.Printf("%v -> ", v)
+-----------------------------
+
+..\ch22\ex22_5\ex22_5.go
+-----------------------------
+		 00004 	 "fmt"
+		 00017 	 fmt.Printf("송하나의 주소는 %s입니다.\n", m["송하나"])
+		 00018 	 fmt.Printf("백두산의 주소는 %s입니다.\n", m["백두산"])
+		 00021 	 fmt.Println(k, v)
+		 00023 	 fmt.Printf("Empty Value : %s\n", m["Not Exist Key"])
+		 00025 	 fmt.Println("OK", v)
+		 00027 	 fmt.Println("No")
+		 00030 	 fmt.Println("Size of Map : ", unsafe.Sizeof(m))
+		 00032 	 fmt.Println("Size of Map : ", unsafe.Sizeof(m))
+-----------------------------
+
+..\ch23\ex23_1\ex23_1.go
+-----------------------------
+		 00005 	 "fmt"
+		 00030 	 _, err = fmt.Fprintln(file, line)
+		 00041 	 fmt.Println("파일 생성에 실패했습니다.", err)
+		 00046 	 fmt.Println("파일 읽기에 실패했습니다.", err)
+		 00050 	 fmt.Println("파일내용:", line)
+-----------------------------
+
+..\ch23\ex23_6\ex23_6.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00006 	 fmt.Println("Start f()")
+		 00009 	 fmt.Println("recover panic in f() - ", r)
+		 00013 	 fmt.Println("Finish f()")
+		 00017 	 fmt.Printf("9 / 3 = %d\n", h(9, 3))
+		 00018 	 fmt.Printf("9 / 0 = %d\n", h(9, 0))
+		 00024 	 fmt.Println("recover panic in h() - ", r)
+		 00037 	 fmt.Println("Done Main Function")
+-----------------------------
+
+..\ch24\ex24_1\ex24_1.go
+-----------------------------
+		 00004 	 "fmt"
+		 00012 	 fmt.Printf("%c ", v)
+		 00019 	 fmt.Printf("%d ", i)
+		 00027 	 fmt.Println("Test")
+-----------------------------
+
+..\ch24\ex24_2\ex24_2.go
+-----------------------------
+		 00004 	 "fmt"
+		 00016 	 fmt.Printf("%d부터 %d까지 합계는 %d입니다.\n", a, b, sum)
+		 00025 	 fmt.Println("Start Wait")
+		 00027 	 fmt.Println("Done Wait")
+		 00028 	 fmt.Println("모든 계산이 완료되었습니다.")
+-----------------------------
+
+..\ch24\ex24_4\ex24_4.go
+-----------------------------
+		 00004 	 "fmt"
+		 00019 	 panic(fmt.Sprintf("Balance should not be negative value: %d", account.Balance))
+-----------------------------
+
+..\ch25\ex25_1\ex25_1.go
+-----------------------------
+		 00004 	 "fmt"
+		 00021 	 fmt.Printf("Square : %d\n", n*n)
+-----------------------------
+
+..\ch25\ex25_3\ex25_3.go
+-----------------------------
+		 00004 	 "fmt"
+		 00024 	 fmt.Printf("Square: %d\n", n*n)
+-----------------------------
+
+..\ch25\ex25_5\ex25_5.go
+-----------------------------
+		 00004 	 "fmt"
+		 00013 	 fmt.Printf("Square; %d\n", n*n)
+-----------------------------
+
+..\ch25\ex25_6\ex25_6.go
+-----------------------------
+		 00004 	 "fmt"
+		 00016 	 fmt.Println("Tick")
+		 00018 	 fmt.Println("Terminated!")
+		 00022 	 fmt.Printf("Square :%d\n", n*n)
+-----------------------------
+
+..\ch25\ex25_7\ex25_7.go
+-----------------------------
+		 00004 	 "fmt"
+		 00021 	 fmt.Printf("Start Factory\n")
+		 00029 	 fmt.Println("Close the factory")
+		 00064 	 fmt.Printf("%.2f Complete Car: %s %s %s \n", duration.Seconds(), car.Body, car.Tire, car.Color)
+-----------------------------
+
+..\ch25\ex25_8\ex25_8.go
+-----------------------------
+		 00005 	 "fmt"
+		 00030 	 fmt.Println("Tick")
+-----------------------------
+
+..\ch00\hello.go
+-----------------------------
+		 00003 	 import "fmt"
+		 00006 	 fmt.Println("Hello World!")
+-----------------------------
+
+..\ch16\ch16.go
+-----------------------------
+		 00004 	 "fmt"
+		 00012 	 fmt.Println(graph)
+-----------------------------
+
+..\ch25\ex25_9\ex25_9.go
+-----------------------------
+		 00005 	 "fmt"
+		 00025 	 fmt.Printf("Square: %d", n*n)
+-----------------------------
+
+..\ch17\ch17.go
+-----------------------------
+		 00005 	 "fmt"
+		 00015 	 fmt.Print("숫자를 입력하세요:")
+		 00016 	 _, err := fmt.Scanln(&a)
+		 00018 	 fmt.Println("숫자가 아닙니다.")
+		 00036 	 fmt.Println("입력하신 숫자가 더 작습니다.")
+		 00038 	 fmt.Println("입력하신 숫자가 더 큽니다.")
+		 00040 	 fmt.Print("숫자를 맞췄습니다.")
+		 00053 	 fmt.Printf("축하합니다. 시도한 횟수: %d", i)
+-----------------------------
+
+..\ch26\find.go
+-----------------------------
+		 00005 	 "fmt"
+		 00029 	 result += fmt.Sprintf("\t\t %05d \t %s\n", lineNo, line)
+		 00048 	 fmt.Println("Can't Open File")
+		 00056 	 fmt.Fprintln(resultPointer, result)
+		 00068 	 fmt.Println("Must Provide two Argument {target} {filename}")
+		 00075 	 fmt.Println("Must Provide Target File Name or WildCard")
+		 00081 	 fmt.Println("File Find Error - ", fileName)
+		 00098 	 fmt.Println("Please Check file : ./result.txt")
+-----------------------------
+
